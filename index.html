@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./img/xo.png">
+</head>
+
+<body>
+
+    <h1 onClick="window.location.reload();">Tic-Tac-Toe</h1>
+
+    <div class="game-board">
+        <span class="cell zero" data-index="0"></span>
+        <span class="cell one" data-index="1"></span>
+        <span class="cell two" data-index="2"></span>
+        <span class="cell three" data-index="3"></span>
+        <span class="cell four" data-index="4"></span>
+        <span class="cell five" data-index="5"></span>
+        <span class="cell six" data-index="6"></span>
+        <span class="cell seven" data-index="7"></span>
+        <span class="cell eight" data-index="8"></span>
+    </div>
+
+    <div class="status">
+        <h2 id="statusText">Player X's turn</h2>
+    </div>
+
+    <button class="button-pushable" id="resetButton">
+        <span class="button-shadow"></span>
+        <span class="button-edge"></span>
+        <span class="button-front"> Reset Game </span>
+    </button>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
